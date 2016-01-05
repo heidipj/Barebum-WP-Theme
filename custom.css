@@ -1,0 +1,135 @@
+/* custom style */
+body{font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+
+/*--------------------------------------------------------------
+HEADER & NAVIGATION STYLES
+--------------------------------------------------------------*/
+
+.main-navigation li a{font-weight: normal; color:#000}
+.main-navigation li.current-menu-item a, .main-navigation li.current_page_item a{font-weight:600;}
+
+.social-icons a{color:#4b66a0}
+.social-icons a.facebook {color:#46629E}
+.social-icons a.instagram {color:#4090DB}
+.social-icons a.pinterest {color:#BD1E23}
+.social-icons a.twitter {color:#55ACEE}
+.social-icons a.youtube {color:#E62016}
+
+/*--------------------------------------------------------------
+BASE CONTENT STYLES
+--------------------------------------------------------------*/
+/* content */
+article h1, article h2, article h3, article h4, article h5, article h6{font-weight: 100}
+.entry-content a{text-decoration: underline} 
+
+/* post archive*/
+body.blog article {border-top: 1px solid #eee; margin-top: 20px;}
+
+/*blockquote*/
+blockquote:before{content: "\201C"; font-family: georgia; position:absolute; font-size: 4em; left: -10px; top: -10px; color:#eee}
+blockquote {width:100%; margin: 0.25em 0; padding: 0.25em 40px; font-family: Georgia, serif; font-size:1.4em; font-style: italic; line-height: 1.45; position: relative; color: #888; }
+
+/* entry meta */
+.entry-meta {color: #888; font-size: 0.8em;}
+.entry-meta a{color: #888;}
+.entry-meta .entry-date:before {content: "\f133"; font-family: "fontawesome"; padding-right: 10px; color:#ccc}
+.entry-meta .author:before {content: "\f007"; font-family: "fontawesome"; padding-left: 10px; padding-right:6px; color:#ccc}
+
+/* post footer */
+.entry-footer {color: #666; font-size: 0.9em;}
+.entry-footer {color: #888; font-size: 0.8em;}
+.entry-footer a{color: #888;}
+.entry-footer .cat-links:before {content: "\f009"; font-family: "fontawesome"; padding-right: 10px; color:#ccc}
+.entry-footer .tags-links:before {content: "\f02c"; font-family: "fontawesome"; padding-left: 10px; padding-right:6px; color:#ccc}
+.entry-footer .comments-link:before {content: "\f0e5"; font-family: "fontawesome"; padding-left: 10px; padding-right:6px; color:#ccc}
+.edit-link:before {content: "\f040"; font-family: "fontawesome"; padding-left: 10px; padding-right:6px; color:#ccc}
+
+/* prev - next */
+.post-navigation {background:#f9f9f9; border-radius: 40px; padding: 10px 15px;}
+.nav-previous{font-size: 0.8em}
+.nav-previous:before {content: "\f177"; font-family: "fontawesome"; padding-right: 10px; color:#888}
+.nav-previous a{color:#888}
+.nav-next{font-size: 0.8em}
+.nav-next:after {content: "\f178"; font-family: "fontawesome"; padding-left: 10px;}
+.nav-next a{color:#888}
+
+/*--------------------------------------------------------------
+COMMENTS STYLES
+--------------------------------------------------------------*/
+
+/*post-list homepage/archive etc. */
+.post-list{}
+.post-list article{margin:0 0 20px 0; padding:20px; border:1px solid #ccc }
+
+/*--------------------------------------------------------------
+HOMEPAGE STYLES
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+PLUGIN STYLES
+--------------------------------------------------------------*/
+
+ /* features
+.columns-4 .feature {float: none; text-align: center;}
+.columns-4 .feature:hover .icon-preview{background: #eee; color:#EEl1B24}
+.feature .icon-preview {padding-top:40px; border: 1px solid #ccc; border-radius: 50%; font-size: 7em!important; height: 190px; text-align: center; vertical-align: middle; width: 190px;}
+ */
+
+/* banners
+.bbbanner {clear: both; margin: 50px 0; overflow: hidden; padding: 20px; text-align: center; width: 100%; float: left}
+ */
+
+/*--------------------------------------------------------------
+ASIDES STYLES
+--------------------------------------------------------------*/
+
+/* aside */
+aside h3{}
+
+
+/*--------------------------------------------------------------
+FOOTER STYLES
+--------------------------------------------------------------*/
+.footer-widgets-wrapper{background:#eee}
+footer{}
+
+/* ---------------------------------------------------------------
+LARGER SCREEN STYLES
+-----------------------------------------------------------------*/
+
+@media only screen and (min-width : 580px){
+
+    /* features 
+    .columns-4 .feature {float: left; text-align: center; width:49%;}
+    */
+
+}
+
+@media only screen and (min-width : 768px){
+    
+     /* features
+    .widget_woothemes_features{padding-top:20px}
+    .columns-4 .feature {float: left; text-align: center; width: 24%;}
+     */
+    
+    .home .flexslider{border-radius: 0px; border-width: 0px 0px 1px 0px}
+    
+    .flexslider .slides li{position: relative; z-index: 10; overflow: hidden}
+    .flexslider .slides li .flex_bg_blur{margin:0px -10px -10px -10px; position: absolute; top:0; left:0; display: block; -webkit-filter: blur(20px); filter: blur(20px); width:110%; max-height: 420px; height: 420px; overflow: hidden}
+    .flexslider .slides li .flex_bg_blur img{-webkit-box-shadow:inset 0 5px 10px 0 rgba(0,0,0,0.5); box-shadow:inset 0 5px 10px 0 rgba(0,0,0,0.5);}
+    .flexslider .slides li .flex_img{position: relative; z-index: 50; margin: 0 auto;  max-width: 1200px; }
+    .flexslider .slides li .flex_img img{display: block; margin: 0 auto;  max-width: 1200px; text-align: center; width: 100%; border:5px solid #000; border-width: 0px 5px;
+    -webkit-box-shadow:inset 0 5px 10px 0 rgba(0,0,0,0.5); box-shadow:inset 0 5px 10px 0 rgba(0,0,0,0.5);}
+    .flexslider .slides li .flex_img .flex-caption{position: absolute; bottom:30px; right:0;}
+    .flexslider .slides li .flex_img .flex-caption h2{margin: 0; padding: 10px 20px; background: rgba(0,0,0,0.9); color:#fff; font-size: 2em; text-align: right}
+    .flexslider .slides li .flex_img .flex-caption p{margin: 1px 0 0; padding: 10px 20px; display: inline-block; background: rgba(27, 120, 159, 0.8); color:#fff; text-align: right; float: right; } 
+    
+}
+
+@media only screen and (min-width : 1024px){
+    
+    //
+    
+}
