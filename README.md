@@ -3,6 +3,6 @@
 _s
 ===
 
-Hi. This a theme based on `_s`, or `underscores` for use with my custom builds. You might find it useful - I've added lots of customisations - if you're interested in using feel free but you might be better off using the `underscores` thme itself.
+Hi. This a theme based on `_s`, or `underscores` for use with my custom WordPress theme builds. You might find it useful - I've added lots of customisations - if you're interested in using feel free but you might be better off using the `underscores` thme itself.
 
 Let me know if you have any comments or suggestions. 
